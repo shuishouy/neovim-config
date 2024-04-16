@@ -1,0 +1,13 @@
+require("core.keymaps")
+require("core.options")
+
+require("plugins.plugins-setup")
+require("plugins.github-theme")
+require("plugins.lualine")
+require("plugins.nvim-tree")
+require("plugins.autopairs")
+require("plugins.lastplace")
+require("plugins.treesitter")
+require("plugins.bufferline")
+require("plugins.lsp")
+require("plugins.cmp")
