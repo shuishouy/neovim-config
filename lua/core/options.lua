@@ -30,6 +30,10 @@ opt.splitbelow = true
 opt.ignorecase = true
 opt.smartcase = true
 
+-- enable undo after written
+vim.o.undofile = true
+vim.o.undolevels = 1000
+
 -- 取消自动注释，当前行是注释时，按下回车键会默认添加一行注释，这里取消这一行为
 vim.opt_local.formatoptions = vim.opt_local.formatoptions - { "r", "c", "o" }
 
